@@ -255,18 +255,20 @@ body{
     border-radius: 0px 0px 4px 4px;
 }
 
+.team-box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .team-list{
     display: flex;
     gap: 30px;
 }
 .team-list .link{
-    padding-bottom: 30px;
     background-color: var(--acent-text-color);
 }
 
 .team-caption{
-    margin-top: 30px;
-
     color: var(--title-text-color);
     text-align: center;
     font-weight: 500;
@@ -404,7 +406,6 @@ body{
 
 .portfolio-header{
     color: var(--title-text-color);
-    text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -413,7 +414,6 @@ body{
 
 .portfolio-text{
     color: var(--primary-text-color);
-    text-decoration: none;
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
